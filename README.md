@@ -97,8 +97,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact Information
 
 Chien-Ming CHI
-Institute of Statistical Science 
+
+Institute of Statistical Science
+
 Academia Sinica
+
 xbb66kw@gmail.com
 
 
