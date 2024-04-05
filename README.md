@@ -31,24 +31,28 @@ openml: Platform for sharing and exploring datasets (version 0.12.2).
 ## Usage
 
 The following file demonstrate the basic usage of Collaborative Trees Ensemble.
+
 main_py/example.py
 
 The following file is for the embryo dataset anaylsis in the paper.
+
 main_py/embryogrowth.py
 
 The following files are for the openML dataset anaylsis in the paper.
+
 main_py/open_ml.py
 main_py/openml_score_print.py
 main_py/open_ml_download_datasets.py
 
 The following files are for the simulation experiments in Section 5 of the paper.
+
 main_py/example_bias.py
 main_py/example_plot.py
 
 
 
 ## Example
-
+'''
 import numpy as np
 
 from method.cte import CollaborativeTreesEnsemble 
@@ -73,7 +77,7 @@ forest = CollaborativeTreesEnsemble(n_estimators = 100,
 
 forest.fit(X, y)
 
-### Call the function to generate the network plot:
+# Call the function to generate the network plot:
 parameters = {'base_size': 8500, 'base_edge_size': 4,
               'horizontal_positive_shift': 0.1,
               'horizontal_negative_shift': 0.0,
@@ -81,8 +85,7 @@ parameters = {'base_size': 8500, 'base_edge_size': 4,
               'vertical_negative_shift': -0.1,
               'label_font_size': 40, 'edge_label_font_size': 25}
 plot_network_start(forest.diagram_pack, parameters, digits = 1)
-
-
+'''
 
 ## License
 
