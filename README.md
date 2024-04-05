@@ -15,7 +15,7 @@ Before installing Collaborative Trees Ensemble, ensure you have the following de
 
 You can install Collaborative Trees Ensemble and its dependencies using the following command:
 
-`conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml`
+```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml```
 
 
 ## Dependencies
