@@ -102,6 +102,6 @@ Institute of Statistical Science
 
 Academia Sinica
 
-xbb66kw@gmail.com
+xbb66kw at gmail.com
 
 
