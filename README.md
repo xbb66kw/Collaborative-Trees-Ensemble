@@ -12,7 +12,7 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 2. Download the directory `Collaborative-Trees-Ensemble` and put it in `YOURPATH`.
 
-3. Run the following code in your terminal to set up your conda environment:
+3. Run the following code in your terminal to set up your conda environment. The name of your new conda environment is `myenvironment`.
 
 ```conda create -n myenvironment python=3.10.12```
 
