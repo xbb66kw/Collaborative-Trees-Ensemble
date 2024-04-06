@@ -87,6 +87,7 @@ from method.util.plot_network import plot_network_start
 n = 500
 p = 10
 X = np.random.uniform(0, 1, n * p).reshape(n, p)
+# Friedman regression function
 y = 5 * X[:, 0] + 10 * X[:, 1] + 20 * (X[:, 2] - 0.5)**2 \
         + 10 * np.sin(np.pi * X[:, 3] * X[:, 4])
 y = y + np.squeeze(np.random.multivariate_normal(
@@ -116,6 +117,9 @@ plot_network_start(forest.diagram_pack, parameters, digits = 1)
 
 ![example_1.png](simulated_data/results/example.png)
 
+
+This diagram visaully illustrates the interaction effect between X4 and X5 (i.e., `X[:, 3]` and `X[:, 4]`). 
+Additionally, it indicates that the interaction component in the Friedman regression model is not particularly strong (blue features have relatively stronger additive effects on the response)
 
 ## License
 
