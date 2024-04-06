@@ -8,7 +8,7 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 ## Installation
 
-1. Install Anaconda Distribution following the instraction here: (https://docs.anaconda.com/free/anaconda/install/mac-os/)
+1. Install Anaconda Distribution following the instraction here: <https://docs.anaconda.com/free/anaconda/install/mac-os/>
 
 2. Download the directory `Collaborative-Trees-Ensemble` and put it in `YOURPATH`.
 
@@ -28,9 +28,9 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 ```python3  YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
 
-For more information about conda environment: (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#)
+For more information about conda environment: <https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#>
 
-Alternatively, you can use IDE such as Spyder in conda.
+Alternatively, you can use IDEs like Spyder in conda, which provide friendly tools for visual learners.
 
 ## Dependencies
 
