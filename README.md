@@ -119,7 +119,10 @@ plot_network_start(forest.diagram_pack, parameters, digits = 1)
 
 
 This diagram visaully illustrates the interaction effect between X4 and X5 (i.e., `X[:, 3]` and `X[:, 4]`). 
-Additionally, it indicates that the interaction component in the Friedman regression model is not particularly strong (blue features have relatively stronger additive effects on the response)
+Additionally, it indicates that the interaction component in the Friedman regression model is not particularly strong (blue features have relatively stronger additive effects on the response).
+
+
+For simulation experiments demonstrating strong interaction effects and additional details of the network diagram, please refer to the research paper.
 
 ## License
 
