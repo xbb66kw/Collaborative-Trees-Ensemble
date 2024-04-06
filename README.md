@@ -14,7 +14,7 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 3. Run the following code in your terminal to set up your conda environment:
 
-```conda create -n myenvironment python numpy pandas```
+```conda create -n myenvironment python=3.10.12```
 
 4. Run the following code to activate your conda environment:
 
@@ -22,7 +22,9 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 5. Install the dependencies of Collaborative Trees Ensemble under your conda environment using the following command:
 
-```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml numpy```
+```
+conda install xgboost==1.5.0 numpy anaconda::scikit-learn intel::hyperopt matplotlib networkx openml scipy
+```
 
 6. Run the following code in your terminal:
 
