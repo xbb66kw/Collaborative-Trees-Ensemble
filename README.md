@@ -40,13 +40,13 @@ The following are my environments:
 * Python version: 3.10.12 64-bit
 * Conda version: 24.3.0
 
-xgboost: Used for boosting algorithms (version 1.5.0).
-sklearn: Provides machine learning algorithms and utilities (version 1.2.2).
-scipy: Scientific computing library for numerical operations (version 1.11.1).
-hyperopt: Library for hyperparameter optimization (version 0.2.7).
-matplotlib: Plotting library for visualization (version 3.7.2).
-networkx: Library for graph-based algorithms (version 3.1).
-openml: Platform for sharing and exploring datasets (version 0.12.2).
+* xgboost: Used for boosting algorithms (version 1.5.0).
+* sklearn: Provides machine learning algorithms and utilities (version 1.2.2).
+* scipy: Scientific computing library for numerical operations (version 1.11.1).
+* hyperopt: Library for hyperparameter optimization (version 0.2.7).
+* matplotlib: Plotting library for visualization (version 3.7.2).
+* networkx: Library for graph-based algorithms (version 3.1).
+* openml: Platform for sharing and exploring datasets (version 0.12.2).
 
 ## Usage
 
