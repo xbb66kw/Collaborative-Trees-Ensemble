@@ -122,7 +122,7 @@ This diagram visaully illustrates the interaction effect between X4 and X5 (i.e.
 Additionally, it indicates that the interaction component in the Friedman regression model is not particularly strong (blue features have relatively stronger additive effects on the response).
 
 
-For simulation experiments demonstrating strong interaction effects and additional details of the network diagram, please refer to the research paper.
+For simulation experiments demonstrating strong interaction effects based on other models, and additional details of the network diagram, please refer to the research paper.
 
 ## Reference
 
