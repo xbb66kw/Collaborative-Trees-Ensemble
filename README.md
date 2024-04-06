@@ -26,7 +26,7 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 6. Run the following code in your terminal:
 
-```python3  YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
+```python3 YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
 
 For more information about conda environment: <https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#>
 
