@@ -22,9 +22,7 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 5. Install the dependencies of Collaborative Trees Ensemble under your conda environment using the following command:
 
-```
-conda install xgboost==1.5.0 numpy anaconda::scikit-learn intel::hyperopt matplotlib networkx openml scipy
-```
+```conda install xgboost==1.5.0 numpy anaconda::scikit-learn intel::hyperopt matplotlib networkx openml scipy```
 
 6. Run the following code in your terminal:
 
