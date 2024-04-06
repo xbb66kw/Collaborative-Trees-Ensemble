@@ -124,6 +124,10 @@ Additionally, it indicates that the interaction component in the Friedman regres
 
 For simulation experiments demonstrating strong interaction effects and additional details of the network diagram, please refer to the research paper.
 
+## Reference
+
+Chien-Ming Chi (2024) Analyze Additive and Interaction Effects via Collaborative Trees.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
