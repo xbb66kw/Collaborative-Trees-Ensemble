@@ -8,15 +8,25 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 ## Installation
 
-Before installing Collaborative Trees Ensemble, ensure you have the following dependencies installed:
+You may install Anaconda Distribution following the instraction here: (https://docs.anaconda.com/free/anaconda/install/mac-os/)
+
+You can set up the environment following the instruction here: (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#)
+
+The following are my environments:
 
 * Spyder version: 5.5.1 (conda)
 * Python version: 3.10.12 64-bit
+* conda 24.3.0
 
-You can install Collaborative Trees Ensemble and its dependencies using the following command:
+Install the dependencies of Collaborative Trees Ensemble using the following command:
 
-```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml```
+```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml numpy```
 
+1. Download the directory `Collaborative-Trees-Ensemble` and put it in `YOURPATH`.
+   
+2. Run the following code:
+
+```python3  YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
 
 ## Dependencies
 
