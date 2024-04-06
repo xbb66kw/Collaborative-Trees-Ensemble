@@ -8,27 +8,37 @@ With Collaborative Trees Ensemble, you can efficiently analyze feature interacti
 
 ## Installation
 
-You may install Anaconda Distribution following the instraction here: (https://docs.anaconda.com/free/anaconda/install/mac-os/)
+1. Install Anaconda Distribution following the instraction here: (https://docs.anaconda.com/free/anaconda/install/mac-os/)
 
-You can set up the environment following the instruction here: (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#)
+2. Download the directory `Collaborative-Trees-Ensemble` and put it in `YOURPATH`.
+
+3. Run the following code in your terminal to set up your conda environment:
+
+```conda create -n myenvironment python numpy pandas```
+
+4. Run the following code to activate your conda environment:
+
+```conda activate myenvironment```
+
+5. Install the dependencies of Collaborative Trees Ensemble under your conda environment using the following command:
+
+```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml numpy```
+
+6. Run the following code in your terminal:
+
+```python3  YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
+
+For more information about conda environment: (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#)
+
+Alternatively, you can use IDE such as Spyder in conda.
+
+## Dependencies
 
 The following are my environments:
 
 * Spyder version: 5.5.1 (conda)
 * Python version: 3.10.12 64-bit
 * conda 24.3.0
-
-Install the dependencies of Collaborative Trees Ensemble using the following command:
-
-```conda install xgboost==1.5.0 sklearn scipy hyperopt matplotlib networkx openml numpy```
-
-1. Download the directory `Collaborative-Trees-Ensemble` and put it in `YOURPATH`.
-   
-2. Run the following code:
-
-```python3  YOURPATH/Collaborative-Trees-Ensemble/CTE/example.py```
-
-## Dependencies
 
 xgboost: Used for boosting algorithms (version 1.5.0).
 sklearn: Provides machine learning algorithms and utilities (version 1.2.2).
