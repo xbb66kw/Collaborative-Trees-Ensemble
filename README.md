@@ -38,6 +38,7 @@ The following are my environments:
 
 * Spyder version: 5.5.1 (conda)
 * Python version: 3.10.12 64-bit
+  > Early versions of Python do not support type hints. The package hyperopt may not be compatible with the latest Python version. :c
 * Conda version: 24.3.0
 
 * xgboost: Used for boosting algorithms (version 1.5.0).
