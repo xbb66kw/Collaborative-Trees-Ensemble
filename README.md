@@ -140,5 +140,5 @@ Institute of Statistical Science
 
 Academia Sinica
 
-xbbchi@stat.sinica.edu.tw
+xbbchi<span>@</span>stat.sinica.edu.tw
 
