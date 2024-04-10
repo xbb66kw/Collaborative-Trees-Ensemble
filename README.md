@@ -140,6 +140,5 @@ Institute of Statistical Science
 
 Academia Sinica
 
-xbb66kw at gmail.com
-
+xbbchi@stat.sinica.edu.tw
 
