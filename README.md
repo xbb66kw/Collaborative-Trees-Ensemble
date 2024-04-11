@@ -115,7 +115,7 @@ parameters = {'base_size': 8500, 'base_edge_size': 4,
 plot_network_start(forest.diagram_pack, parameters, digits = 1)
 ```
 
-![example_1.png](simulated_data/results/example-removed.png)
+![example_1.png](simulated_data/results/example.png)
 
 
 This diagram visaully illustrates the interaction effect between X4 and X5 (i.e., `X[:, 3]` and `X[:, 4]`). 
