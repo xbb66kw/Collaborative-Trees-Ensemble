@@ -9,7 +9,8 @@ relationships.
 
 @author: xbb
 
-mypy PATH/example.py --ignore-missing-imports
+mypy check terminal command:
+$ mypy PATH/example.py --ignore-missing-imports
 """
 #%%
 import warnings
@@ -21,7 +22,8 @@ from method.cte import CollaborativeTreesEnsemble
 from method.util.param_search import search_start
 from method.util.plot_network import plot_network_start
 #%%
-if __name__ == '__main__': 
+RUN = True
+if __name__ == '__main__' and RUN:
 #%%
     # Generating simulated data
     n = 500 # size of the simulated data
@@ -50,14 +52,19 @@ if __name__ == '__main__':
     
     # 1. `transformed = True` without `group_list` then all features
     #   are solo features, and are transformed into groups.
-    # 2. Here, [0, 1], [4, 5, 6], [8, 9] are existing groups and are 
-    #   not further processed when transformed = True. Other features
-    #   are solo features and are binned into groups.
-    # 3. `n_bins` is one of the hyperparameters.    
-    # 4. `max_levels` is the number of rounds for hyperparameter 
+    # 2. `n_bins` is one of the hyperparameters.    
+    # 3. `max_levels` is the number of rounds for hyperparameter 
     #   searching.
+    # 4. multiprocessing : int, optional
+    #   `multiprocessing` specifies the number of CPUs used for 
+    #   multiprocessing. the default is 1.
     best_param = search_start(
-        X, y, max_evals = 20, transformed = True)
+        X,
+        y,
+        max_evals = 20,
+        transformed = False,
+        multiprocessing = 1
+        )
 
     #%%
     # Two samples configuration samples.
@@ -85,16 +92,17 @@ if __name__ == '__main__':
     # Initialize the Collaborative Trees Ensemble model.
     # When `n_bins` is not None, solo features are transformed into
     # groups.
-    forest = CollaborativeTreesEnsemble(n_estimators = 100,
+    forest = CollaborativeTreesEnsemble(n_estimators = 30,
         dict_param = used_param)
     #%%
-    # Fit the Collaborative Trees Ensemble model.
-    # Without specifying `group_list`. Hence, all features are
-    # transformed into gorups when `n_bins` is not None
-    forest.multi_fit(X, y)
+    # 1. Without specifying `group_list`. Hence, all features are
+    # transformed into gorups when `n_bins` is not None    
+    # 2. num_cpu : int
+        # The number of CPUs used for multiprocessing
+    # forest.multi_fit(X, y, num_cpu = 10)
 
     # Alternatively, fit the model without using multiprocess.
-    # forest.fit(X, y)
+    forest.fit(X, y)
     #%%
 
     # Generate network diagram
